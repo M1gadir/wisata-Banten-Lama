@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E443BAA4218D891500D6EF73 /* geometry-background.png in Resources */ = {isa = PBXBuildFile; fileRef = E443BAA2218D891400D6EF73 /* geometry-background.png */; };
+		E443BAA5218D891500D6EF73 /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E443BAA3218D891400D6EF73 /* unnamed.jpg */; };
+		E443BAA7218D897100D6EF73 /* borderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E443BAA6218D897000D6EF73 /* borderViewController.swift */; };
+		E443BAA9218DE42900D6EF73 /* offiicial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E443BAA8218DE41E00D6EF73 /* offiicial.mp4 */; };
+		E443BAAB218DF4EE00D6EF73 /* banV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E443BAAA218DF4EE00D6EF73 /* banV.swift */; };
+		E453CD9D2188085400D34935 /* masjidagung.swift in Sources */ = {isa = PBXBuildFile; fileRef = E453CD9C2188085400D34935 /* masjidagung.swift */; };
+		E456E2E9218C5C65005B960F /* mapsbanten.swift in Sources */ = {isa = PBXBuildFile; fileRef = E456E2E8218C5C65005B960F /* mapsbanten.swift */; };
+		E470A2B221A6F14D00B5F8BF /* instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E470A2AE21A6F14A00B5F8BF /* instagram-logo.png */; };
+		E470A2B321A6F14D00B5F8BF /* Id Gambar.png in Resources */ = {isa = PBXBuildFile; fileRef = E470A2AF21A6F14A00B5F8BF /* Id Gambar.png */; };
+		E470A2B421A6F14D00B5F8BF /* YT.png in Resources */ = {isa = PBXBuildFile; fileRef = E470A2B021A6F14B00B5F8BF /* YT.png */; };
+		E470A2B521A6F14D00B5F8BF /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = E470A2B121A6F14C00B5F8BF /* facebook.png */; };
+		E4A49881218C313A00F0A799 /* pantai-anyer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A4987F218C313900F0A799 /* pantai-anyer.jpg */; };
+		E4A49882218C313A00F0A799 /* bantenlama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A49880218C313900F0A799 /* bantenlama.jpg */; };
+		E4A49884218C39CF00F0A799 /* Vidban.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4A49883218C315C00F0A799 /* Vidban.mp4 */; };
+		E4E254D221874F5700F164C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E254D121874F5700F164C6 /* AppDelegate.swift */; };
+		E4E254D421874F5700F164C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E254D321874F5700F164C6 /* ViewController.swift */; };
+		E4E254D721874F5700F164C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E254D521874F5700F164C6 /* Main.storyboard */; };
+		E4E254DA21874F5700F164C6 /* wisata_Banten_Lama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4E254D821874F5700F164C6 /* wisata_Banten_Lama.xcdatamodeld */; };
+		E4E254DC21874F5B00F164C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E254DB21874F5B00F164C6 /* Assets.xcassets */; };
+		E4E254DF21874F5B00F164C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E254DD21874F5B00F164C6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E443BAA2218D891400D6EF73 /* geometry-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geometry-background.png"; sourceTree = "<group>"; };
+		E443BAA3218D891400D6EF73 /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpg; sourceTree = "<group>"; };
+		E443BAA6218D897000D6EF73 /* borderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = borderViewController.swift; sourceTree = "<group>"; };
+		E443BAA8218DE41E00D6EF73 /* offiicial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = offiicial.mp4; sourceTree = "<group>"; };
+		E443BAAA218DF4EE00D6EF73 /* banV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = banV.swift; sourceTree = "<group>"; };
+		E453CD9C2188085400D34935 /* masjidagung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masjidagung.swift; sourceTree = "<group>"; };
+		E456E2E8218C5C65005B960F /* mapsbanten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapsbanten.swift; sourceTree = "<group>"; };
+		E470A2AE21A6F14A00B5F8BF /* instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram-logo.png"; sourceTree = "<group>"; };
+		E470A2AF21A6F14A00B5F8BF /* Id Gambar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Id Gambar.png"; sourceTree = "<group>"; };
+		E470A2B021A6F14B00B5F8BF /* YT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YT.png; sourceTree = "<group>"; };
+		E470A2B121A6F14C00B5F8BF /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		E4A4987F218C313900F0A799 /* pantai-anyer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pantai-anyer.jpg"; sourceTree = "<group>"; };
+		E4A49880218C313900F0A799 /* bantenlama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bantenlama.jpg; sourceTree = "<group>"; };
+		E4A49883218C315C00F0A799 /* Vidban.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vidban.mp4; sourceTree = "<group>"; };
+		E4E254CE21874F5700F164C6 /* wisata Banten Lama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wisata Banten Lama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E254D121874F5700F164C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4E254D321874F5700F164C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4E254D621874F5700F164C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4E254D921874F5700F164C6 /* wisata_Banten_Lama.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wisata_Banten_Lama.xcdatamodel; sourceTree = "<group>"; };
+		E4E254DB21874F5B00F164C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E254DE21874F5B00F164C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4E254E021874F5B00F164C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E254CB21874F5700F164C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4E254C521874F5700F164C6 = {
+			isa = PBXGroup;
+			children = (
+				E4A49883218C315C00F0A799 /* Vidban.mp4 */,
+				E443BAA8218DE41E00D6EF73 /* offiicial.mp4 */,
+				E4E254D021874F5700F164C6 /* wisata Banten Lama */,
+				E4E254CF21874F5700F164C6 /* Products */,
+				E4A49880218C313900F0A799 /* bantenlama.jpg */,
+				E4A4987F218C313900F0A799 /* pantai-anyer.jpg */,
+				E443BAA2218D891400D6EF73 /* geometry-background.png */,
+				E443BAA3218D891400D6EF73 /* unnamed.jpg */,
+				E470A2B121A6F14C00B5F8BF /* facebook.png */,
+				E470A2AF21A6F14A00B5F8BF /* Id Gambar.png */,
+				E470A2AE21A6F14A00B5F8BF /* instagram-logo.png */,
+				E470A2B021A6F14B00B5F8BF /* YT.png */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E254CF21874F5700F164C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E254CE21874F5700F164C6 /* wisata Banten Lama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E254D021874F5700F164C6 /* wisata Banten Lama */ = {
+			isa = PBXGroup;
+			children = (
+				E4E254D121874F5700F164C6 /* AppDelegate.swift */,
+				E4E254D321874F5700F164C6 /* ViewController.swift */,
+				E4E254D521874F5700F164C6 /* Main.storyboard */,
+				E443BAAA218DF4EE00D6EF73 /* banV.swift */,
+				E456E2E8218C5C65005B960F /* mapsbanten.swift */,
+				E443BAA6218D897000D6EF73 /* borderViewController.swift */,
+				E453CD9C2188085400D34935 /* masjidagung.swift */,
+				E4E254DB21874F5B00F164C6 /* Assets.xcassets */,
+				E4E254DD21874F5B00F164C6 /* LaunchScreen.storyboard */,
+				E4E254E021874F5B00F164C6 /* Info.plist */,
+				E4E254D821874F5700F164C6 /* wisata_Banten_Lama.xcdatamodeld */,
+			);
+			path = "wisata Banten Lama";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E254CD21874F5700F164C6 /* wisata Banten Lama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E254E321874F5B00F164C6 /* Build configuration list for PBXNativeTarget "wisata Banten Lama" */;
+			buildPhases = (
+				E4E254CA21874F5700F164C6 /* Sources */,
+				E4E254CB21874F5700F164C6 /* Frameworks */,
+				E4E254CC21874F5700F164C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wisata Banten Lama";
+			productName = "wisata Banten Lama";
+			productReference = E4E254CE21874F5700F164C6 /* wisata Banten Lama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E254C621874F5700F164C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = TB;
+				TargetAttributes = {
+					E4E254CD21874F5700F164C6 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = E4E254C921874F5700F164C6 /* Build configuration list for PBXProject "wisata Banten Lama" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4E254C521874F5700F164C6;
+			productRefGroup = E4E254CF21874F5700F164C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E254CD21874F5700F164C6 /* wisata Banten Lama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E254CC21874F5700F164C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A49882218C313A00F0A799 /* bantenlama.jpg in Resources */,
+				E443BAA4218D891500D6EF73 /* geometry-background.png in Resources */,
+				E443BAA5218D891500D6EF73 /* unnamed.jpg in Resources */,
+				E4A49881218C313A00F0A799 /* pantai-anyer.jpg in Resources */,
+				E4E254DF21874F5B00F164C6 /* LaunchScreen.storyboard in Resources */,
+				E4E254DC21874F5B00F164C6 /* Assets.xcassets in Resources */,
+				E470A2B421A6F14D00B5F8BF /* YT.png in Resources */,
+				E4A49884218C39CF00F0A799 /* Vidban.mp4 in Resources */,
+				E443BAA9218DE42900D6EF73 /* offiicial.mp4 in Resources */,
+				E4E254D721874F5700F164C6 /* Main.storyboard in Resources */,
+				E470A2B521A6F14D00B5F8BF /* facebook.png in Resources */,
+				E470A2B221A6F14D00B5F8BF /* instagram-logo.png in Resources */,
+				E470A2B321A6F14D00B5F8BF /* Id Gambar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E254CA21874F5700F164C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E254D421874F5700F164C6 /* ViewController.swift in Sources */,
+				E4E254DA21874F5700F164C6 /* wisata_Banten_Lama.xcdatamodeld in Sources */,
+				E453CD9D2188085400D34935 /* masjidagung.swift in Sources */,
+				E456E2E9218C5C65005B960F /* mapsbanten.swift in Sources */,
+				E443BAAB218DF4EE00D6EF73 /* banV.swift in Sources */,
+				E443BAA7218D897100D6EF73 /* borderViewController.swift in Sources */,
+				E4E254D221874F5700F164C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4E254D521874F5700F164C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E254D621874F5700F164C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4E254DD21874F5B00F164C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E254DE21874F5B00F164C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4E254E121874F5B00F164C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4E254E221874F5B00F164C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4E254E421874F5B00F164C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wisata Banten Lama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.wisata-Banten-Lama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4E254E521874F5B00F164C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wisata Banten Lama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSYS.wisata-Banten-Lama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E254C921874F5700F164C6 /* Build configuration list for PBXProject "wisata Banten Lama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E254E121874F5B00F164C6 /* Debug */,
+				E4E254E221874F5B00F164C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E254E321874F5B00F164C6 /* Build configuration list for PBXNativeTarget "wisata Banten Lama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E254E421874F5B00F164C6 /* Debug */,
+				E4E254E521874F5B00F164C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4E254D821874F5700F164C6 /* wisata_Banten_Lama.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4E254D921874F5700F164C6 /* wisata_Banten_Lama.xcdatamodel */,
+			);
+			currentVersion = E4E254D921874F5700F164C6 /* wisata_Banten_Lama.xcdatamodel */;
+			path = wisata_Banten_Lama.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4E254C621874F5700F164C6 /* Project object */;
+}
